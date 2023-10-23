@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotesViewModel : ViewModel() {
+class NotesViewModel() : ViewModel() {
     private val notesLiveData = MutableLiveData<List<Note>>()
     private val notes = mutableListOf<Note>()
 

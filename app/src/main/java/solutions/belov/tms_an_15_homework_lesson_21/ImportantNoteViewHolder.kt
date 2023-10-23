@@ -4,7 +4,7 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import solutions.belov.tms_an_15_homework_lesson_21.databinding.NoteItemImportantBinding
 
-class ImportantNoteViewHolder(item: View) : RecyclerView.ViewHolder(item) {
+class ImportantNoteViewHolder(item: View ) : RecyclerView.ViewHolder(item) {
     val binding = NoteItemImportantBinding.bind(item)
 
     fun bind(note: Note) = with(binding) {
